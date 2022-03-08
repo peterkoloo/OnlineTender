@@ -33,7 +33,7 @@
                         <div class="card-body login-card-body">
                             <p class="login-box-msg">Sign in to start your session</p>
 
-                            <form action="login.php" method="post">
+                            <form action="loginHandler.php" method="post">
                                 <div class="input-group mb-3">
                                     <input type="email" class="form-control" placeholder="Email">
                                     <div class="input-group-append">
@@ -84,7 +84,7 @@
                         <div class="card-body register-card-body">
                             <p class="login-box-msg">Register a new membership</p>
 
-                            <form action="register.php" method="post">
+                            <form action="registrationHandler.php" method="post">
                                 <div class="input-group mb-3">
                                     <input type="text" class="form-control" placeholder="Full name">
                                     <div class="input-group-append">
@@ -140,7 +140,7 @@
                 <!-- /.register-box -->
             </div>
         </div>
-
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>
